@@ -9,4 +9,5 @@ COPY . .
 
 EXPOSE 8000
 
-CMD ["uvicorn", "sps_genai.sps_genai_assignment3.main_fastapi_gan:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main_fastapi_gan:app", "--host", "0.0.0.0", "--port", "8000"]
+
